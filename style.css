@@ -15,7 +15,7 @@
 
 }  
 .pri-text-col{
-    color: rgb(255, 255, 255) !important;
+    color:#5f1782  !important;
 }
 .padd{
     padding: 40px !important;
@@ -40,8 +40,51 @@
 .tel{
     width: 100px;
 }
-/* .card{
-    border: none;
-} */
-/* background-color: linear-gradient(to right, rgb(165, 23, 186), rgb(95, 23, 130)) !important;
-} */
+.pry-bg-col{
+    background-color: wheat !important;
+}
+button{
+    /* margin-top: 30px; */
+    border: 2px solid #5f1782;
+    color: black;
+    /* width: 40%; */
+    margin:30px auto;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #2a262c95;
+    color: white;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    /* height: 60%; */
+    margin: auto;
+}
+.footer{
+    justify-content: space-evenly;
+}
+.txt{
+    display: flex;
+    justify-content: space-between;
+}
+.txt .gt-u{
+    width: 60%;
+}
+input{
+    padding:12px 20px;
+    border-radius: 10px;
+}
+.what-we-do{
+    margin-bottom: 20px;
+}
+nav{
+   border-bottom: 1px solid white;
+}
+nav img{
+    width: 100px;
+}
+footer{
+   border-top: 1px solid white;
+}
